@@ -1,13 +1,8 @@
+#! /usr/bin/env node 
+
 import inquirer from "inquirer";
 
 let myList = [];
-
-// let options = await inquirer.prompt([{
-//     name: "start",
-//     type: "list",
-//     message: "Please select any option to continue.",
-//     choices: ["Add items to your lsit"]
-// },])
 
 let condition = true;
 while (condition)
